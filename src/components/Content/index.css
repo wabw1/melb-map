@@ -1,0 +1,72 @@
+h1 {
+  text-align: center;
+}
+.navigation {
+  width: 90%;
+  height: 50px;
+  align-self: center;
+  margin: 0 auto;
+}
+.navigation .navlink {
+  float: left;
+  display: block;
+  color: #252525;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  width: 25%;
+}
+
+.navigation .navlink.active {
+  background-color: #85acee;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* container的布局 应该是个flex吧？ */
+.container {
+  margin-top: 0.5em;
+  height: 550px;
+  background-color: aliceblue;
+}
+.map-container {
+  width: 80%;
+  height: 500px;
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 0 !important;
+}
+.filter-container {
+  display: block;
+  float: right;
+  width: 19%;
+  height: 150px;
+  padding-left: 0.5em;
+  /*background: #dddddd;*/
+  z-index: 1 !important;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 100;
+  position: absolute;
+  /*行内block自适应文字*/
+  /* display: inline-block; */
+  width: fit-content;
+  height: fit-content;
+  top: 10px;
+  left: 10px;
+
+  border-radius: 4px;
+}
+
+.ratings .price {
+  margin-top: 0.25em;
+}

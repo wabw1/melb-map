@@ -1,0 +1,231 @@
+export default {
+  type: "FeatureCollection",
+  features: [
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.95176752719402, -37.81313342983453],
+      },
+      properties: {
+        rank: 1,
+        name: "Foglia di Fico",
+        address: "585 La Trobe St (Spencer St entrance), Melbourne, Victoria 3000 Australia",
+        price: 2,
+        rating: 5.0,
+        cuisine: ["European", "Italian", "Vegetarian Friendly"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96668104253905, -37.80374326184385],
+      },
+      properties: {
+        rank: 2,
+        name: "Da Guido La Pasta",
+        address: "130 Lygon St Carlton, Melbourne, Victoria 3053 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["European", "Italian", "Mediterranean"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.974925898357, -37.795530254634116],
+      },
+      properties: {
+        rank: 3,
+        name: "Scopri",
+        address: "191 Nicholson St Carlton, Melbourne, Victoria 3053 Australia",
+        price: 3,
+        rating: 5.0,
+        cuisine: ["Italian", "Vegan Options", "Vegetarian Friendly"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96311441370293, -37.815422415175654],
+      },
+      properties: {
+        rank: 4,
+        name: "11 Inch Pizza",
+        address: "Equitable Place 353-359 Little Collins Street, Melbourne, Victoria 3000 Australia",
+        price: 1,
+        rating: 4.5,
+        cuisine: ["Italian", "Pizza", "Vegetarian Friendly"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96278748486677, -37.81553831802981],
+      },
+      properties: {
+        rank: 5,
+        name: "Da Guido 365",
+        address: "365 Little Collins St, Melbourne, Victoria 3000 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["Italian", "Mediterranean", "Pizza"],
+      },
+    },
+
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.97138653114044, -37.810900954294596],
+      },
+      properties: {
+        rank: 43,
+        name: "Punch Lane",
+        address: "43 Little Bourke St, Melbourne, Victoria 3000 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["Australian", "European", "International"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96903529957186, -37.81056495682198],
+      },
+      properties: {
+        rank: 44,
+        name: "seamstress",
+        address: "113 Lonsdale St, Melbourne, Victoria 3000 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["Asian", "Vegan Options", "Vegetarian Friendly"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96179875015423, -37.81338513058615],
+      },
+      properties: {
+        rank: 45,
+        name: "+39 Pizzeria",
+        address: "362 Little Bourke St, Melbourne, Victoria 3000 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["Italian", "Mediterranean", "Pizza"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.9562659773896, -37.814183889311536],
+      },
+      properties: {
+        rank: 46,
+        name: "Bergerac French Restaurant",
+        address: "555 Lonsdale St, Melbourne, Victoria 3000 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["European", "French", "Vegetarian Friendly"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96851032701278, -37.809390030954035],
+      },
+      properties: {
+        rank: 47,
+        name: "Sally's Kitchen and Winebar",
+        address: "115 Little Lonsdale St, Melbourne, Victoria 3000 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["Australian", "Contemporary", "Vegetarian Friendly"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96077772719389, -37.81335207611348],
+      },
+      properties: {
+        rank: 48,
+        name: "Rare Steakhouse Midtown",
+        address: "12 Goldie Pl, Melbourne, Victoria 3000 Australia",
+        price: 3,
+        rating: 4.5,
+        cuisine: ["Australian", "Grill", "Steakhouse"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96662247998827, -37.80096372369964],
+      },
+      properties: {
+        rank: 49,
+        name: "Seasons Provedore",
+        address: "199 Lygon St, Melbourne, Victoria 3053 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["European", "Italian", "Neapolitan"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.96261426952145, -37.81816667974798],
+      },
+      properties: {
+        rank: 50,
+        name: "Maha",
+        address: "21 Bond St, Melbourne, Victoria 3000 Australia",
+        price: 4,
+        rating: 4.5,
+        cuisine: ["Mediterranean", "Middle Eastern", "Turkish"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.95985864349294, -37.811456545362155],
+      },
+      properties: {
+        rank: 51,
+        name: "Brick Lane Melbourne",
+        address: "33 Guildford Lane, Melbourne, Victoria 3000 Australia",
+        price: 2,
+        rating: 4.5,
+        cuisine: ["Cafe", "Vegan Options", "Vegetarian Friendly"],
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [144.961652911157, -37.80910712707729],
+      },
+      properties: {
+        rank: 52,
+        name: "B'Churrasco Brazilian BBQ",
+        address: "61 A'Beckett St, Melbourne, Victoria 3000 Australia",
+        price: 3,
+        rating: 4.5,
+        cuisine: ["Brazilian", "Gluten Free Options"],
+      },
+    },
+  ],
+};
